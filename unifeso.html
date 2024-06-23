@@ -6,16 +6,17 @@
     <link rel="stylesheet" href="./src/css/unifeso.css">
     <title>Unifeso</title>
 </head>
+
 <body>
     <header>
         <img src="https://www.unifeso.edu.br/images/logo/UNIFESO.png" alt="Logo Unifeso" id="logo-unifeso">
         <nav>
             <ul id="lista-header">
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre a Editoria</a></li>
-                <li><a href="#">Como Publicar</a></li>
-                <li><a href="#">Publicações</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="https://www.unifeso.edu.br/editora/sobre.php" title="Sobre a Editoria" target="_blank">Sobre a Editoria</a></li>
+                <li><a href="https://www.unifeso.edu.br/editora/informacoes.php" title="Como Publicar" target="_blank">Como Publicar</a></li>
+                <li><a href="https://www.unifeso.edu.br/editora/categorias.php" title="Publicações Séries" target="_blank">Publicações Séries</a></li>
+                <li><a href="https://www.unifeso.edu.br/editora/contato.php" title="Contato" target="_blank">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -23,11 +24,76 @@
     <h2>Publicações</h2>
 
     <article>
-        <!-- aqui tem que adicionar uma logica para pegar as info de um vetor pa poder exibir na tela, pode usar um map ou um for verrendo essed vetor  -->
-        <!-- cria um objeto com imagem (com link), auto publica, sobre -->
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="carousel-img" src="https://www.unifeso.edu.br/editora/images/revistas/d49462027b9b0c3f05bc5d5c0c477736.png" alt="Livro 1">
+                    <div class="carousel-caption">
+                        <h3><a href="https://www.unifeso.edu.br/editora/pdf/47014555a284149595730af7e664faf4.pdf" target="_blank">Caminhos da Bioética Vol 1</a></h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="https://www.unifeso.edu.br/editora/images/revistas/13a7abe775129eb253476ade9da3451a.png" alt="Livro 2">
+                    <div class="carousel-caption">
+                        <h3><a href="https://www.unifeso.edu.br/editora/pdf/eb8ab072b519b1c4a6088c2c9ce35ac4.pdf" target="_blank">Análise da formação em saúde: Uma cartografia das mudanças curriculares no Ensino</a></h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="https://www.unifeso.edu.br/editora/images/revistas/7763104427d296a16690754e13a9936c.png" alt="Livro 3">
+                    <div class="carousel-caption">
+                        <h3><a href="https://www.unifeso.edu.br/editora/pdf/169997a79f0593d86606da1b197a6a93.pdf" target="_blank">PET- Saúde: Interprofissionalidade</a></h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="https://www.unifeso.edu.br/editora/images/revistas/389651029f43fdde7aba7988db75182c.png" alt="Livro 4">
+                    <div class="carousel-caption">
+                        <h3><a href="https://www.unifeso.edu.br/editora/pdf/2241f104118f6a797f324a61e0f8e5c2.pdf" target="_blank">Conhecimentos e práticas dos profissionais de Saúde da Família diante da violência doméstica contra crianças e adolescentes no município de Teresópolis - RJ</a></h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="https://www.unifeso.edu.br/editora/images/revistas/daaa165596d5c310633abcb718f39252.png" alt="Livro 5">
+                    <div class="carousel-caption">
+                        <h3><a href="https://www.unifeso.edu.br/editora/images/revistas/daaa165596d5c310633abcb718f39252.png" target="_blank">Representações Sociais sobre o Papel da Escola e o Papel do Professor no Município de Armação dos Búzios/RJ: O universo consensual revelando a "nossa Búzios"</a></h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="https://www.unifeso.edu.br/editora/images/revistas/108f36c660ffe2e819fb5e0e1bee4c67.png" alt="Livro 6">
+                    <div class="carousel-caption">
+                        <h3><a href="https://www.unifeso.edu.br/editora/pdf/38286da57a17d0d72956f112134e0477.pdf" target="_blank">Ciclo seminários NAPPA</a></h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="https://www.unifeso.edu.br/editora/images/revistas/a132447b0a095f33fe48751b6e5e0785.png" alt="Livro 7">
+                    <div class="carousel-caption">
+                        <h3><a href="https://www.unifeso.edu.br/editora/pdf/0310e556b10d37c20f8015e3074f4ced.pdf" target="_blank">O Guia do Líder Gestor</a></h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="https://www.unifeso.edu.br/editora/images/revistas/bb6b180be3734214bddc86f95a14ff82.png" alt="Livro 8">
+                    <div class="carousel-caption">
+                        <h3><a href="https://www.unifeso.edu.br/editora/pdf/educao.pdf" target="_blank">Educação Permanente em Saúde: Experiências na Escola, Serviços e Gestão</a></h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="https://www.unifeso.edu.br/editora/images/revistas/225713ca7a00c5701734bf85a05e5d92.png" alt="Livro 9">
+                    <div class="carousel-caption">
+                        <h3><a href="https://www.unifeso.edu.br/editora/pdf/ed8da696c100d69da9a82d266909e574.pdf" target="_blank">Anatomia Dentária</a></h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="carousel-img" src="https://www.unifeso.edu.br/editora/images/revistas/31225b46044aff8eb5ae1e07ae4b7a9f.png" alt="Livro 10">
+                    <div class="carousel-caption">
+                        <h3><a href="https://www.unifeso.edu.br/editora/pdf/b1d433f8420b19f105dce151fcc52144.pdf" target="_blank">Pedagogia da Arte no processo de ensino e aprendizagem</a></h3>
+                    </div>
+                </div>
+
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
         <div id="card">
             <ul>
-                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSafC93CE7qH25DueEEMZJCJK7_wSoBFlwXgw&s" alt="" id="imagem-docard"></li>
                 <li>Autor</li>
                 <li>Publicações</li>
                 <li>Sobre</li>
@@ -35,5 +101,6 @@
         </div>
     </article>
 
+    <script src="./src/js/unifeso.js"></script>
 </body>
 </html>
