@@ -1,11 +1,17 @@
 ---------------------------------------- protótipo --------------------------------------
-
 [Simple Lined Black Login Page Wireframe Website UI Prototype (4).pdf](https://github.com/user-attachments/files/16059734/Simple.Lined.Black.Login.Page.Wireframe.Website.UI.Prototype.4.pdf)
 
 [Dark Blue Modern Tech Features Overview Website Wireframe UI Prototype (2).pdf](https://github.com/user-attachments/files/16059730/Dark.Blue.Modern.Tech.Features.Overview.Website.Wireframe.UI.Prototype.2.pdf)
 
 
 Requisitos: [requisitos.xlsx](https://github.com/user-attachments/files/16059688/requisitos.xlsx)
+
+imagem de exemplos
+
+![image](https://github.com/rickson2002/trabalho-unifeso/assets/112441890/8ea70a70-f2c9-4626-9d28-75bd1030321c)
+
+![image](https://github.com/rickson2002/trabalho-unifeso/assets/112441890/ba31a718-7101-4375-8daf-6aad99e4fb78)
+
 
 -------------------------------------------- Readme ------------------------------------------
 
