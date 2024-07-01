@@ -5,7 +5,7 @@
 [Dark Blue Modern Tech Features Overview Website Wireframe UI Prototype (2).pdf](https://github.com/user-attachments/files/16059730/Dark.Blue.Modern.Tech.Features.Overview.Website.Wireframe.UI.Prototype.2.pdf)
 
 
-[requisitos.xlsx](https://github.com/user-attachments/files/16059688/requisitos.xlsx)
+Requisitos: [requisitos.xlsx](https://github.com/user-attachments/files/16059688/requisitos.xlsx)
 
 -------------------------------------------- Readme ------------------------------------------
 
