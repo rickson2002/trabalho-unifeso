@@ -1,8 +1,13 @@
-Readme
+[requisitos.xlsx](https://github.com/user-attachments/files/16059688/requisitos.xlsx)
 
+
+
+
+Readme
 
 Michael Reis Rodrigues
 Rickson de Souza Ferreira
+
 
 Plataforma de Publicações
 
